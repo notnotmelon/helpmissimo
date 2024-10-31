@@ -1,18 +1,24 @@
 {
-  "name": "[internal-mod-name]",
+  "name": "helpmissimo",
   "version": "0.0.0",
-  "title": "[MOD DISPLAY NAME]",
-  "author": "[YOUR MODS.FACTORIO.COM USERNAME]",
-  "homepage": "[HOMEPAGE/REPO URL]",
-  "description": "[SHORT DESCRIPTION]",
+  "title": "Helpmissimo",
+  "author": "notnotmelon",
+  "homepage": "https://github.com/notnotmelon/helpmissimo",
+  "description": "Pyanodons except you are trapped in a factorissimo. What could possibly go wrong? WARNING: This is an extreme brutal mode factorio mod designed to take 2000+ hours to complete. Comparable in difficulty to GregTech: New Horizions or Campaign for North Africa. Do not download this if you value your time.",
   "factorio_version": "2.0",
   "dependencies": [
-    "base"
+    "base >= 2.0.12",
+    "quality",
+    "! space-age",
+    "! elevated-rails",
+    "pyhardmode",
+    "pyalternativeenergy",
+    "pysimple"
   ],
-  "quality_required": false,
-  "space_travel_required": false,
-  "spoiling_required": false,
-  "freezing_required": false,
-  "segmented_units_required": false,
-  "expansion_shaders_required": false
+  "quality_required": true,
+  "space_travel_required": true,
+  "spoiling_required": true,
+  "freezing_required": true,
+  "segmented_units_required": true,
+  "expansion_shaders_required": true
 }
